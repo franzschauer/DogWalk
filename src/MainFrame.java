@@ -14,8 +14,9 @@ import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JTextArea;
 import javax.swing.JTextPane;
-
-
+import javax.swing.Timer;
+import javax.swing.Timer;
+import javax.swing.Timer;
 public class MainFrame
 {
 	private static DogePanel tabby = new DogePanel();
@@ -33,9 +34,17 @@ public static void main(String[] args)
 //	JPanel panny = new JPanel(new BorderLayout());
 	/////
 	JFrame frame = new JFrame("DogWalk!");
-	JTextArea textPanel = new JTextArea("I'm a dog");
-	textPanel.setEditable(false);
-	
+	frame.add(tabby);
+	frame.setResizable(false);
+	frame.setSize(600,641);
+	tabby.setBackground(Color.black);
+	frame.setVisible(true);
+	//JTextArea textPanel = new JTextArea("I'm a dog");
+	//will put the tex for the position of leading dog here
+	//tabby.add(textPanel);
+	//textPanel.setEditable(false);
+	//////////////////////////////////////
+
 	
 	
 }
