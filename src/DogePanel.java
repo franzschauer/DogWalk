@@ -41,6 +41,7 @@ public class DogePanel extends JPanel implements ActionListener{
 			}
 			if(doAJig)
 			{
+				//hi franz
 				//if(repeatCounter==)
 				//set a random dog to leader
 				doAJig=false;
